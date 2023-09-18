@@ -10,9 +10,16 @@ public class BasicPlugin: CAPPlugin {
     private let implementation = Basic()
 
     @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+        let name = call.getString("name") ?? "default Name"
+        
+        guard let id = call.options["id"] as? String else {
+            call.reject("Must provide an id")
+            return
+          }
         call.resolve([
-            "value": implementation.echo(value)
+            "name": implementation.echo(name),
+            "name2": name,
+            "active": true
         ])
     }
 }

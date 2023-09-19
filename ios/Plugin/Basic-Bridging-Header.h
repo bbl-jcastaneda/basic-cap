@@ -9,5 +9,10 @@
 #ifndef Basic_Bridging_Header_h
 #define Basic_Bridging_Header_h
 
+#import <Cordova/CDV.h>
+#import "ETIdentity.h"
+#import "ETIdentityProvider.h"
+#import "ETSoftTokenSDK.h"
+#import "ETTransaction.h"
 
 #endif /* Basic_Bridging_Header_h */

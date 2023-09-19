@@ -9,9 +9,9 @@ import Capacitor
 public class BasicPlugin: CAPPlugin {
     private let implementation = Basic()
 
+    
     @objc func echo(_ call: CAPPluginCall) {
         let name = call.getString("name") ?? "default Name"
-        
         guard let id = call.options["id"] as? String else {
             call.reject("Must provide an id")
             return

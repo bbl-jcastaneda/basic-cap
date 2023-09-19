@@ -10,6 +10,20 @@
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
 		2F98D68224C9AAE500613A4C /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* Basic.swift */; };
+		4C37EDFE2AB90316009D5133 /* ETCommCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDEF2AB90315009D5133 /* ETCommCallback.h */; };
+		4C37EDFF2AB90316009D5133 /* ETNotificationParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF02AB90315009D5133 /* ETNotificationParams.h */; };
+		4C37EE022AB90316009D5133 /* ETIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF32AB90315009D5133 /* ETIdentityProvider.h */; };
+		4C37EE032AB90316009D5133 /* ETTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF42AB90315009D5133 /* ETTransaction.h */; };
+		4C37EE042AB90316009D5133 /* ETDataTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF52AB90315009D5133 /* ETDataTypes.h */; };
+		4C37EE052AB90316009D5133 /* ETLaunchUrlParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF62AB90315009D5133 /* ETLaunchUrlParams.h */; };
+		4C37EE062AB90316009D5133 /* ETSoftTokenSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF72AB90316009D5133 /* ETSoftTokenSDK.h */; };
+		4C37EE072AB90316009D5133 /* ETLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF82AB90316009D5133 /* ETLogger.h */; };
+		4C37EE082AB90316009D5133 /* ETConfigurationFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDF92AB90316009D5133 /* ETConfigurationFile.h */; };
+		4C37EE092AB90316009D5133 /* ETIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDFA2AB90316009D5133 /* ETIdentity.h */; };
+		4C37EE0A2AB90316009D5133 /* ETErrorDomainConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C37EDFB2AB90316009D5133 /* ETErrorDomainConstants.h */; };
+		4C37EE0D2AB9078E009D5133 /* Intellitrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37EE0C2AB9078E009D5133 /* Intellitrust.m */; };
+		4C37EE122AB90DC9009D5133 /* libs in Resources */ = {isa = PBXBuildFile; fileRef = 4C37EE112AB90DC9009D5133 /* libs */; };
+		4C37EE142AB90DF1009D5133 /* libEntrustIGMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C37EE132AB90DF1009D5133 /* libEntrustIGMobileSDK.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFF97201F53D600D50D53 /* BasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* BasicTests.swift */; };
 		50ADFF99201F53D600D50D53 /* BasicPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* BasicPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +45,21 @@
 /* Begin PBXFileReference section */
 		2F98D68124C9AAE400613A4C /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C37EDEF2AB90315009D5133 /* ETCommCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETCommCallback.h; sourceTree = "<group>"; };
+		4C37EDF02AB90315009D5133 /* ETNotificationParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNotificationParams.h; sourceTree = "<group>"; };
+		4C37EDF32AB90315009D5133 /* ETIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETIdentityProvider.h; sourceTree = "<group>"; };
+		4C37EDF42AB90315009D5133 /* ETTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTransaction.h; sourceTree = "<group>"; };
+		4C37EDF52AB90315009D5133 /* ETDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDataTypes.h; sourceTree = "<group>"; };
+		4C37EDF62AB90315009D5133 /* ETLaunchUrlParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLaunchUrlParams.h; sourceTree = "<group>"; };
+		4C37EDF72AB90316009D5133 /* ETSoftTokenSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSoftTokenSDK.h; sourceTree = "<group>"; };
+		4C37EDF82AB90316009D5133 /* ETLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETLogger.h; sourceTree = "<group>"; };
+		4C37EDF92AB90316009D5133 /* ETConfigurationFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETConfigurationFile.h; sourceTree = "<group>"; };
+		4C37EDFA2AB90316009D5133 /* ETIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETIdentity.h; sourceTree = "<group>"; };
+		4C37EDFB2AB90316009D5133 /* ETErrorDomainConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETErrorDomainConstants.h; sourceTree = "<group>"; };
+		4C37EE0C2AB9078E009D5133 /* Intellitrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intellitrust.m; sourceTree = "<group>"; };
+		4C37EE112AB90DC9009D5133 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = libs; sourceTree = "<group>"; };
+		4C37EE132AB90DF1009D5133 /* libEntrustIGMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEntrustIGMobileSDK.a; path = Plugin/libs/libEntrustIGMobileSDK.a; sourceTree = "<group>"; };
+		4C37EE152AB9E972009D5133 /* Basic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic-Bridging-Header.h"; sourceTree = "<group>"; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF8B201F53D600D50D53 /* BasicPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicPlugin.h; sourceTree = "<group>"; };
 		50ADFF8C201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37EE142AB90DF1009D5133 /* libEntrustIGMobileSDK.a in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
 			);
@@ -92,11 +122,25 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				4C37EE112AB90DC9009D5133 /* libs */,
+				4C37EE0C2AB9078E009D5133 /* Intellitrust.m */,
+				4C37EDEF2AB90315009D5133 /* ETCommCallback.h */,
+				4C37EDF92AB90316009D5133 /* ETConfigurationFile.h */,
+				4C37EDF52AB90315009D5133 /* ETDataTypes.h */,
+				4C37EDFB2AB90316009D5133 /* ETErrorDomainConstants.h */,
+				4C37EDFA2AB90316009D5133 /* ETIdentity.h */,
+				4C37EDF32AB90315009D5133 /* ETIdentityProvider.h */,
+				4C37EDF62AB90315009D5133 /* ETLaunchUrlParams.h */,
+				4C37EDF82AB90316009D5133 /* ETLogger.h */,
+				4C37EDF02AB90315009D5133 /* ETNotificationParams.h */,
+				4C37EDF72AB90316009D5133 /* ETSoftTokenSDK.h */,
+				4C37EDF42AB90315009D5133 /* ETTransaction.h */,
 				50E1A94720377CB70090CE1A /* BasicPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* Basic.swift */,
 				50ADFF8B201F53D600D50D53 /* BasicPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* BasicPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				4C37EE152AB9E972009D5133 /* Basic-Bridging-Header.h */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -124,6 +168,7 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C37EE132AB90DF1009D5133 /* libEntrustIGMobileSDK.a */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -138,7 +183,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37EE082AB90316009D5133 /* ETConfigurationFile.h in Headers */,
+				4C37EE072AB90316009D5133 /* ETLogger.h in Headers */,
+				4C37EDFF2AB90316009D5133 /* ETNotificationParams.h in Headers */,
 				50ADFF99201F53D600D50D53 /* BasicPlugin.h in Headers */,
+				4C37EE032AB90316009D5133 /* ETTransaction.h in Headers */,
+				4C37EE052AB90316009D5133 /* ETLaunchUrlParams.h in Headers */,
+				4C37EE0A2AB90316009D5133 /* ETErrorDomainConstants.h in Headers */,
+				4C37EE092AB90316009D5133 /* ETIdentity.h in Headers */,
+				4C37EE042AB90316009D5133 /* ETDataTypes.h in Headers */,
+				4C37EE022AB90316009D5133 /* ETIdentityProvider.h in Headers */,
+				4C37EDFE2AB90316009D5133 /* ETCommCallback.h in Headers */,
+				4C37EE062AB90316009D5133 /* ETSoftTokenSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37EE122AB90DC9009D5133 /* libs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C37EE0D2AB9078E009D5133 /* Intellitrust.m in Sources */,
 				50E1A94820377CB70090CE1A /* BasicPlugin.swift in Sources */,
 				2F98D68224C9AAE500613A4C /* Basic.swift in Sources */,
 				50ADFFA82020EE4F00D50D53 /* BasicPlugin.m in Sources */,
@@ -471,11 +529,26 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/libs",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Plugin/Basic-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,11 +570,26 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/libs",
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Plugin/Basic-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
